@@ -53,6 +53,10 @@ form label {
   font-size: 14px;
 }
 
+label {
+  font-size: 12px;
+}
+
 form .placeholder {
   font-size: 12px;
 }
@@ -144,6 +148,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
