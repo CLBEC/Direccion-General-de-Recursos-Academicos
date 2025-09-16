@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: gray;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -8,7 +8,7 @@ body {
 header {
   background-color: #051424;
   color: white;
-  padding-top: 10px;
+  padding-top: 5px;
   padding: 15px;
   font-size: large;
   text-align: center;
@@ -23,15 +23,16 @@ section.registro {
   padding: 30px;
   max-width: 600px;
   margin: auto;
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 
 .registro h2 {
     font-weight: normal;
     text-align: center;
     margin: 1.5em;
-    font-family: cursive;
-    border-bottom: 0.2em solid gray;
+    border-bottom: 0.1em solid white;
+    padding: 0.5em;
 }
 
 form label {
@@ -74,8 +75,8 @@ button {
 }
 
 .checkbox {
-    color: black;
-    background-color: black;
+    color: white;
+    background-color: #222;
     padding: 2em;
     text-align: center;
     border-radius: 1em;
@@ -84,7 +85,9 @@ button {
 footer {
   text-align: center;
   padding: 15px;
-  background-color: #eaeaea;
+  background-color: #111;
+  color: white;
+  font-weight: bold;
 }
 
 img {
@@ -95,27 +98,33 @@ img {
   height: 5em;
   margin: 0;
   padding: 0.2em;
-  background-color: black;
+  background-color: goldenrod;
 }
 
 .descargar {
   text-align: center;
-  margin: 1em auto;
+  margin: auto;
   padding: 30px;
   max-width: 600px;
-  background-color: white;
-  box-shadow: 00 00 0009em white;
+  background-color: #051424;
+  color: white;
+  border-top: 0.1em solid goldenrod;
 }
 
 .descargar h2 {
-  border-bottom: 0.1em solid gray;
+  border-bottom: 0.1em solid goldenrod;
   padding: 0.5em;
 }
 
 .descargar a {
-  color: gray;
+  color: goldenrod;
+  font-size: 1.5em;
   text-decoration: none;
   font-weight: bold;
-
 }
 
+option {
+  color: white;
+  background-color: #051424;
+  font-weight: bold;
+}
