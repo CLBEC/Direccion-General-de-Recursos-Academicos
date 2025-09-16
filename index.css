@@ -108,6 +108,7 @@ img {
 }
 
 .descargar {
+  font-sze: 12px;
   text-align: center;
   margin: auto;
   padding: 30px;
@@ -134,6 +135,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
