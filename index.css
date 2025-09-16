@@ -20,7 +20,6 @@ header {
 
 section.registro {
   padding: 30px;
-  max-width: 400px;
   background-color: black;
   color: white;
 }
@@ -126,5 +125,6 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
