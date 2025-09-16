@@ -62,6 +62,7 @@ form input, form select {
 }
 
 button {
+  font-size: 12px;
   text-align: center;
   margin-top: 20px;
   padding: 10px 20px;
@@ -135,6 +136,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
