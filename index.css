@@ -30,8 +30,8 @@ header h4 {
 }
 
 section.registro {
-  padding: 30px;
-  background-color: black;
+  padding: 50px auto;
+  background-color: #051424;
   color: white;
 }
 
@@ -143,6 +143,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
