@@ -32,6 +32,7 @@ section.registro {
     margin: 1.5em;
     border-bottom: 0.1em solid white;
     padding: 0.5em;
+    font-size: 14px;
 }
 
 form label {
@@ -93,6 +94,7 @@ footer {
   background-color: #111;
   color: white;
   font-weight: bold;
+  font-size: 14px;
 }
 
 img {
@@ -112,6 +114,7 @@ section .descargar {
   background-color: #051424;
   color: white;
   border-top: 0.1em solid goldenrod;
+  letter
 }
 
 .descargar h2 {
@@ -131,6 +134,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
