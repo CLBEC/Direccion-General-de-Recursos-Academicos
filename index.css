@@ -40,6 +40,14 @@ form label {
   font-style: italic;
 }
 
+label {
+  font-size: 12px;
+}
+
+.placeholder {
+  font-size: 12px;
+}
+
 form input, form select {
   width: 100%;
   padding: 8px;
@@ -126,6 +134,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
