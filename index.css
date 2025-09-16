@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #051424;
+  color: white;
+  padding: 20px;
+  font-size: large;
+  text-align: center;
+}
+
+.lema {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+section.registro {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 00 00 0009em white;
+}
+
+.registro h2 {
+    font-weight: normal;
+    text-align: center;
+    margin: 1.5em;
+    font-family: cursive;
+    border-bottom: 0.2em solid gray;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 2em;
+  margin-top: 5px;
+  text-align: center;
+  color: gray;
+  border: none;
+  border-radius: 1em;
+  border-bottom: 0.2em solid white;
+  background-color: #000000;
+}
+
+button {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #051424;
+  font-style: italic;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#mensaje {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-size: x-large;
+  margin: 1em;
+}
+
+.checkbox {
+    color: black;
+    background-color: black;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eaeaea;
+}
+
+img {
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 1em;
+  width: 5em;
+  height: 5em;
+  margin: 0;
+  padding: 0.2em;
+  background-color: black;
+}
+
+.descargar {
+  text-align: center;
+  margin: 1em auto;
+  padding: 30px;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 00 00 0009em white;
+}
+
+.descargar h2 {
+  border-bottom: 0.1em solid gray;
+  padding: 0.5em;
+}
+
+.descargar a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}

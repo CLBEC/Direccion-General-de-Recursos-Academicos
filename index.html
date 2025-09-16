@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Centro Lingûístico Bilingüe Educational Classrooms</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <img src="TITULO1.png">
+      <h1>Centro Linguistico Bilingue Educational Classrooms</h1>
+    <p class="lema">“Guatemala tu Nombre Inmortal”</p>
+  </header>
+
+  <section class="registro">
+    <form id="registroForm">
+      <h2>Direccion General de Recursos Academicos</h2>
+
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ejemplo: María López Hernández" required>
+
+      <label for="fecha">Fecha de Registro:</label><p style="font-size: 0.7em;">( presione el calendario que esta en el costado derecho )</p>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="codigo">Código institucional:</label>
+      <input type="text" id="codigo" name="codigo" placeholder="Ejemplo: 123ABCD" required>
+
+      <label for="dias">Dia de Clases:</label>
+      <select id="dias" name="dias" required>
+        <option value="">Seleccione su dia de clases</option>
+        <option value="Lunes">Lunes</option>
+        <option value="Martes">Martes</option>
+        <option value="Miercoles">Miercoles</option>
+        <option value="Jueves">Jueves</option>
+        <option value="Viernes">Viernes</option>
+      </select>
+
+      <label for="horas">Horario de Clases:</label>
+      <select id="horas" name="horas" required>
+        <option value="">Seleccione su horario de clases</option>
+        <option value="Hl1">Lunes 16:00 p.m. a 18:00 p.m.</option>
+        <option value="Hl2">Lunes 19:00 p.m. a 20:00 p.m.</option>
+        <option value="Hm1">Martes 16:00 p.m. a 18:00 p.m.</option>
+        <option value="Hm2">Martes 19:00 p.m. a 20:00 p.m.</option>
+        <option value="Hs1">Miercoles 16:00 p.m. a 18:00 p.m.</option>
+        <option value="Hs2">Miercoles 19:00 p.m. a 20:00 p.m.</option>
+        <option value="Hj1">Jueves 16:00 p.m. a 18:00 p.m.</option>
+        <option value="Hj2">Jueves 19:00 p.m. a 20:00 p.m.</option>
+        <option value="Hv1">Viernes 16:00 p.m. a 18:00 p.m.</option>
+        <option value="Hv2">Viernes 19:00 p.m. a 20:00 p.m.</option>
+      </select>
+
+      <label for="email">Correo electrónico unico de <i>Microsoft Account</i>:</label>
+      <input type="email" id="email" name="email" placeholder="Ejemplo: usuario@outlook.es" required>
+
+      <label for="telefono">No. Telefónico:</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="Ejemplo: +502 5555 1234" required>
+
+      <label for="nivel">Nivel lingüístico:</label>
+      <select id="nivel" name="nivel" required>
+        <option value="">Seleccionar</option>
+        <option value="A1">Nivel A1 - Principiante</option>
+        <option value="A2">Nivel A2 - Elemental</option>
+        <option value="B1">Nivel B1 - Intermedio</option>
+        <option value="B2">Nivel B2 - Intermedio Alto</option>
+        <option value="C1">Nivel C1 - Avanzado</option>
+        <option value="C2">Nivel C2 - Maestria</option>
+      </select>
+
+      <label for="idioma">Idioma Materno:</label>
+      <select id="idioma" name="idioma" required>
+        <option value="">Seleccione su idioma originario</option>
+        <option value="LL1">ACHI</option>
+        <option value="LL2">AKATEKO</option>
+        <option value="LL3">AWAKATEKO</option>
+        <option value="LL4">CH'ORTI'</option>
+        <option value="LL5">CHUJ</option>
+        <option value="LL6">ITZA'</option>
+        <option value="LL7">IXIL</option>
+        <option value="LL8">JAKALTEKO "POPTI'"</option>
+        <option value="LL9">KAQCHIKEL</option>
+        <option value="LL10">K'ICHE'</option>
+        <option value="LL11">MAM</option>
+        <option value="LL12">MOPAN</option>
+        <option value="LL13">POQOMAM</option>
+        <option value="LL14">POQOMCHI'</option>
+        <option value="LL15">Q'ANJOB'AL</option>
+        <option value="LL16">Q'EQCHI'</option>
+        <option value="LL17">SAKALPUTEKO</option>
+        <option value="LL18">SIPAKAPENSE</option>
+        <option value="LL19">TEKTITEKO</option>
+        <option value="LL20">TZ'UTUJIL</option>
+        <option value="LL21">USPANTEKO</option>
+        <option value="LL22">YUCATECO</option>
+        <option value="LL23">XINKA</option>
+        <option value="LL24">GARIFUNA</option>
+        <option value="LL25">ESPAÑOL</option>
+      </select>
+
+
+      <label for="idiomaExtranjero">Idioma extranjero en aprendizaje:</label>
+      <select id="idiomaExtranjero" name="idiomaExtranjero" required>
+        <option value="">Seleccione que ingles esta aprendiendo</option>
+        <option value="INA">Ingles Estadounidense</option>
+        <option value="IAS">Ingles Australiano</option>
+        <option value="IBO">Ingles Britanico</option>
+      </select>
+
+      <h4></h4>
+
+
+      <label>
+        <input class="checkbox" type="checkbox" required>
+        <p class="checkbox">Declaro que la información proporcionada es verídica de acuerdo a mi inscripcion realizada en <i>"Direccion General de Recursos"</i> para la obtencion de mis Recursos Academicos.</p>
+      </label>
+
+      <button type="submit">Confirmar mi Registro</button>
+      <p id="mensaje"></p>
+    </form>
+  </section>
+
+  <section class="descargar">
+    <h2>Documento de Registro</h2>
+    <p>Acceda a su registro descargando el siguiente documento y enviandolo a <b>CLBEC WhatsApp</b>, llenarlo y firmarlo para que podamos aperturar tu codigo y datos de estudiante</p>
+      <a href="REGISTRO.pdf">Registro</a>
+      <p>Al acceder a este documento, se estara cerrando sesion en esta pagina, por lo que para enviarnos el documento, debe ingresar nuevamente a esta pagina.</p>
+      <p>El documento cuenta con formularios de <i>Microsoft Forms</i> para poder llevar registrados tus logros.</p>
+      <a href="https://wa.me/message/IXYHGAGL5XVEH1">CLBEC WhatsApp</a>
+      </section>
+
+  <footer>
+    <p>Bajo el regimen de proteccion con protocolos de seguridad de <i>Microsoft Copilot</i> </p>
+    <p>&copy; 2025 Centro Lingüístico Bilingüe. Todos los derechos reservados.</p>
+    <p>&copy; Educational Classrooms</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
