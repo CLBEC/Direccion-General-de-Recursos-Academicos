@@ -111,9 +111,7 @@ img {
 .descargar {
   font-size: 12px;
   text-align: center;
-  margin: auto;
   padding: 30px;
-  max-width: 600px;
   background-color: #051424;
   color: white;
   border-top: 0.1em solid goldenrod;
@@ -136,6 +134,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
