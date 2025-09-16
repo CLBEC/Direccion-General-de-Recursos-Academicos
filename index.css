@@ -44,7 +44,7 @@ label {
   font-size: 12px;
 }
 
-.placeholder {
+input .placeholder {
   font-size: 12px;
 }
 
@@ -109,7 +109,7 @@ img {
 }
 
 .descargar {
-  font-sze: 12px;
+  font-size: 12px;
   text-align: center;
   margin: auto;
   padding: 30px;
@@ -136,6 +136,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
