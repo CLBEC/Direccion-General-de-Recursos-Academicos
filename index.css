@@ -9,7 +9,7 @@ header {
   background-color: white;
   color: #051424;
   padding-top: 5px;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   font-size: 18px;
   border-bottom: 3px solid goldenrod;
@@ -143,6 +143,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
