@@ -110,8 +110,8 @@ img {
   background-position: center;
   background-attachment: fixed;
   border-radius: 1em;
-  width: 5em;
-  height: 5em;
+  width: 7em;
+  height: 7em;
   margin: 0;
   padding: 0.2em;
   background-color: goldenrod;
@@ -143,6 +143,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
