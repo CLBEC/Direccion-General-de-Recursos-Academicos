@@ -8,7 +8,8 @@ body {
 header {
   background-color: #051424;
   color: white;
-  padding: 20px;
+  padding-top: 10px;
+  padding: 15px;
   font-size: large;
   text-align: center;
 }
@@ -117,3 +118,4 @@ img {
   font-weight: bold;
 
 }
+
