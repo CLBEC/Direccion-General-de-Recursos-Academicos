@@ -23,7 +23,6 @@ section.registro {
   max-width: 600px;
   margin: auto;
   background-color: white;
-  box-shadow: 00 00 0009em white;
 }
 
 .registro h2 {
@@ -116,4 +115,5 @@ img {
   color: gray;
   text-decoration: none;
   font-weight: bold;
+
 }
