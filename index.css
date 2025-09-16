@@ -135,7 +135,6 @@ section .descargar {
   background-color: #051424;
   color: white;
   border-top: 0.1em solid goldenrod;
-  letter
 }
 
 .descargar h2 {
@@ -155,6 +154,7 @@ option {
   background-color: #051424;
   font-weight: bold;
 }
+
 
 
 
