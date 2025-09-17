@@ -67,7 +67,7 @@ form label {
   font-weight: bold;
   font-style: italic;
   font-size: 35px;
-  padding-left: 3em;
+  padding-left: 2em;
   padding-right: 0;
 }
 
@@ -224,6 +224,7 @@ option {
   padding-top: 1em;
   margin: 0;
 }
+
 
 
 
