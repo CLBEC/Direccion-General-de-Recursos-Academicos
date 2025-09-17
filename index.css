@@ -6,21 +6,30 @@ body {
 }
 
 header {
-  background-color: white;
-  color: #051424;
-  padding-top: 5px;
-  padding: 20px;
+  background-color: #051424;
+  color: white;
+  padding: 10px;
   text-align: center;
   font-size: 18px;
-  border-bottom: 3px solid goldenrod;
+  border-bottom: 5px solid goldenrod;
+  margin-bottom: 1em;
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 header h4 {
-  letter-spacing: 2px;
+  font-size: 25px;
+  letter-spacing: 4px;
+  border-bottom: 1px solid goldenrod;
+  margin-left: 12em;
+  margin-right: 12em;
+  margin-top: 0;
 }
 
 .lema {
@@ -30,67 +39,83 @@ header h4 {
 }
 
 section.registro {
-  padding: 50px auto;
-  background-color: #051424;
-  color: white;
-  margin: 2em;
+  background-color: #05142040;
+  border-radius: 1.5em;
+  border: 0.5em solid #051424;
+  color: #051424;
+  padding: 3em auto;
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  box-shadow: 00 00 002em #051424;
 }
 
 .registro h2 {
     font-weight: normal;
     text-align: center;
     margin: 1.5em;
-    border-bottom: 0.1em solid white;
+    border-bottom: 0.1em solid goldenrod;
     padding: 0.5em;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 2em;
 }
 
 form label {
   display: block;
   margin-top: 15px;
-  font-weight: normal;
+  font-weight: bold;
   font-style: italic;
+  font-size: 16px;
+  padding-left: 3em;
+  padding-right: 0;
+}
+
+form input, .placeholder {
   font-size: 14px;
-}
-
-label {
-  font-size: 12px;
-}
-
-form .placeholder {
-  font-size: 12px;
+  width: 87%;
 }
 
 form input, form select {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 87%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  margin-left: 3em;
+  margin-right: 0;
   margin-top: 5px;
+  z-index: 10001;
   text-align: center;
-  color: gray;
+  color: #051424;
   border: none;
   border-radius: 1em;
-  border-bottom: 0.2em solid white;
-  background-color: #000000;
+  border-bottom: 0.2em solid #051424;
+  background-color: white;
 }
 
-input {
-  padding: 25px;
-  background-color: white;
-  color: #051424;
-  border: 1px solid goldenrod;
+form input, .date {
+  width: 87%;
 }
 
 button {
-  font-size: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
   text-align: center;
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #051424;
   font-style: italic;
   color: white;
-  border: none;
   cursor: pointer;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-left: 3px solid goldenrod;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
 }
 
 #mensaje {
@@ -102,39 +127,50 @@ button {
 }
 
 .checkbox {
-    color: white;
-    background-color: #222;
-    padding: 2em;
+    color: #051424;
+    background-color: #05142040;
+    padding: 1.5em;
+    width: 84%;
+    margin: 0.5 auto;
     text-align: center;
     border-radius: 1em;
+    border: 0.1em solid #051424;
 }
 
 footer {
   text-align: center;
-  padding: 15px;
-  background-color: #111;
-  color: white;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  background-color: #05142040;
+  border-top: 3px solid #051424;
+  color: #051424;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 img {
   background-position: center;
   background-attachment: fixed;
   border-radius: 1em;
-  width: 7em;
-  height: 7em;
-  margin: 0;
+  width: 10em;
+  height: 10em;
+  margin: 1.5em;
   padding: 0.2em;
   background-color: goldenrod;
 }
 
-section .descargar {
+.descargar {
   font-size: 14px;
   text-align: center;
   background-color: #051424;
   color: white;
-  border-top: 0.1em solid goldenrod;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 1em;
+  padding-bottom: 10px;
+  box-shadow: 00 00 002em black;
 }
 
 .descargar h2 {
@@ -149,16 +185,42 @@ section .descargar {
   font-weight: bold;
 }
 
+.descargar p {
+  padding: 10px;
+}
+
 option {
   color: white;
   background-color: #051424;
   font-weight: bold;
 }
 
+.flags {
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+}
 
+.f1 {
+  background-color: blue;
+  padding: 0.5em;
+  padding-top: 1em;
+  margin: 0;
+}
 
+.f2 {
+  background-color: white;
+  padding: 0.5em;
+  padding-top: 1em;
+  margin: 0;
+}
 
-
+.f3 {
+  background-color: blue;
+  padding: 0.5em;
+  padding-top: 1em;
+  margin: 0;
+}
 
 
 
