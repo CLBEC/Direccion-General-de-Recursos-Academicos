@@ -1,7 +1,7 @@
 // Lista oficial de códigos institucionales admitidos
 const codigosValidos = [
   "EC1ANGELGUEVARAC204",
-  "",
+  "ABC123",
   "",
   ""
 ];
@@ -67,6 +67,7 @@ window.onbeforeunload = function () {
     return "⚠️ Debe eliminar su registro antes de cerrar la página.";
   }
 };
+
 
 
 
